@@ -9,11 +9,6 @@
 * As a user, when I "Start" the service, it should begin to "send messages" every N minutes, as given by the user in the EditText UI. For now, these should be Toast messages using the format: "(425) 555-1212: Are we there yet?".
 * As a user, when I switch away from this application to another one, the messages should continue to send every N minutes, and should continue to send until I navigate back to this application and push "Stop".
 
-## Implementation Notes
-* You can use either separate Activities or one Activity + multiple Fragments to build this; this is entirely up to you, and there's pros/cons with each approach
-* It's helpful to spend some time thinking about how an MVC approach would work with this, and design accordingly
-* Keep in mind almost all the text (questions, topics, etc) will be loaded dynamically in future parts of this homework, which may influence some of your decisions now
-
 ## Grading (5 pts)
 * repo should be called 'awty'
 * 1 point for each story
